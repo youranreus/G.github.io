@@ -6,65 +6,6 @@
 
 ## 主题的进阶配置
 
-只是把安装主题的话是无法驾驭主题G的，需要进一步配置。
-
-
-
-首先至少设置以下两个独立页面，分别作为**友情链接页面**和**关于页面**，名称可以自定义
-
-![pages](https://i.loli.net/2019/02/12/5c62404b4bb0b.png)
-
-注意独立页面链接的配置(途中黄色区域)
-
-![slugs](https://i.loli.net/2019/02/12/5c624205590ed.jpg)
-
-那么基本的两个页面设置完毕。
-
-### 常见问题
-
-
-
-​	Q:设置了之后从前台访问页面显示404（明明链接是对的）
-
-​	A:请前往**[后台->设置->永久链接]**处启用**地址重写功能**
-
-​	Q:我已经启用了地址重写功能，为什么还是不行
-
-​	A:那么多半是伪静态出了问题
-
-如果网站环境为APACHE，请在typecho根目录下新建`.htaccess`文件，文件内容如下
-
-```apache
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteBase /
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^(.*)$ index.php [L,E=PATH_INFO:$1]
-</IfModule>
-```
-
-
-
-如果环境为nginx，代码则为
-
-```nginx
-location / {
-index index.html index.php;
-if (-f $request_filename/index.html) {
-rewrite (.*) $1/index.html break;
-}
-if (-f $request_filename/index.php) {
-rewrite (.*) $1/index.php;
-}
-if (!-f $request_filename) {
-rewrite (.*) /index.php;
-}
-}
-```
-
-具体操作请到百度查找，关键词为`typecho伪静态`。
-
 
 
 ## 使用独立页面做首页
@@ -160,6 +101,24 @@ rewrite (.*) /index.php;
 
 
 
+## 搜索
+
+此功能需要插件[ExSearch](https://github.com/AlanDecode/Typecho-Plugin-ExSearch)支持
+
+当启用ExSearch插件时，会在footer处生成一个搜索按钮
+
+
+
+## 打赏
+
+设置位置**后台->外观->设置外观**->**打赏二维码图片**
+
+![赞赏设置](https://cdn.exia.xyz/img/G_theme_feed_option.png)
+
+若这一栏被填写，将在文章页生成赞赏按钮
+
+![赞赏按钮](https://cdn.exia.xyz/img/G_theme_btn_feed.png)
+
 ## 短代码
 
 ### 博客内文章跳转
@@ -172,6 +131,10 @@ rewrite (.*) /index.php;
 
 cid为文章id
 
+![文章跳转](https://cdn.exia.xyz/img/G_theme_art2art.png)
+
+
+
 ### 下载按钮
 
 格式示例
@@ -182,9 +145,11 @@ cid为文章id
 
 href为目标地址,中间的`blog.zip`可替换成相应文件名
 
+![下载按钮](https://cdn.exia.xyz/img/G_theme_btn_download.png)
+
+
+
 ## 更多自定义选项
-
-
 
 ### 背景图片
 
@@ -211,3 +176,9 @@ href为目标地址,中间的`blog.zip`可替换成相应文件名
 ### 文章单双排显示
 
 设置位置**后台->外观->设置外观**->**开启文章页双排显示**
+
+
+
+### 罗德岛限定图标
+
+设置位置**后台->外观->设置外观**->**罗德岛纪念图标**
