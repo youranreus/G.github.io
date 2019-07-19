@@ -119,36 +119,6 @@
 
 ![赞赏按钮](https://cdn.exia.xyz/img/G_theme_btn_feed.png)
 
-## 短代码
-
-### 博客内文章跳转
-
-格式示例
-
-```
-[art]cid[/art]
-```
-
-cid为文章id
-
-![文章跳转](https://cdn.exia.xyz/img/G_theme_art2art.png)
-
-
-
-### 下载按钮
-
-格式示例
-
-```
-[dl href="gundam.exia.xyz"]blog.zip[/dl]
-```
-
-href为目标地址,中间的`blog.zip`可替换成相应文件名
-
-![下载按钮](https://cdn.exia.xyz/img/G_theme_btn_download.png)
-
-
-
 ## 更多自定义选项
 
 ### 背景图片
