@@ -38,60 +38,13 @@
 
 ### 非插件版
 
-如果不想安装插件，则需手动代码添加
-
-1.前往友情链接页面编辑页面
-
-2.按照以下格式添加友链
-
-**请注意务必在页面头部和尾部加上`!!!`**
-
-```html
-!!!
-<li class='clear hoverup'>
-    <a href='{url}' target='_blank'><img src='{image}' alt='{name}'/></a>
-    <div class='link-item-content'>
-        <h3>{name}</h3>
-	<span>{sort}</span>
-	<p>{description}</p>
-    </div>
-</li>
-
-!!!
-```
-
-3.将主题文件夹下的link.php文件中如下字段删去
-
-```php
-<?php Links_Plugin::output("
-    <li class='clear'>
-        <a href='{url}' target='_blank'><img src='{image}' alt='{name}'/></a>
-        <div class='link-item-content'>
-            <h3>{name}</h3>
-            <span>{sort}</span>
-            <p>{description}</p>
-        </div>
-    </li>
-", 0); ?>
-```
+**1.5**版本后不再支持非插件模式。望周知。
 
 
-
-第二步中的短代码含义如下
-
-> {url}=>链接
->
-> {name}=>名称
->
-> {sort}=>分类
->
-> {description}=>描述
->
-> {image}=>头像
 
 ### 最终效果
 
-![展示](https://i.loli.net/2019/02/12/5c624a187a2c7.png)
+![展示](https://i.loli.net/2020/02/16/3CmRafVSAlHjtrG.png)
 
 ## 文章头图
 
@@ -152,6 +105,14 @@
 ### 罗德岛限定图标
 
 设置位置**后台->外观->设置外观**->**罗德岛纪念图标**
+
+
+
+### 文章默认头图
+
+设置位置**后台->外观->设置外观**->**没有设置文章头图的就用这里的图片啦**
+
+ps.如果单单填写张图片的地址可能略显枯燥。可以在此处填写你的随机图片api以达到更加美观的效果。
 
 
 
