@@ -38,9 +38,16 @@
 
 ### 非插件版
 
-**1.5**版本后不再支持非插件模式。望周知。
+~~**1.5**版本后不再支持非插件模式。望周知。~~
 
+现在可以通过**后台->外观->设置外观**->**友情链接**处按照以下格式添加。
 
+> **链接名称,链接地址,链接描述,链接分类,头像链接**
+> 不同信息之间用英文逗号“,”分隔，例如：
+> **季悠然,https://gundam.exia.xyz/,寻找有趣的灵魂,好朋友,https://xxx.xxx.com/avatar.jpg**
+> 多个链接换行即可，一行一个
+
+**注意！**当启用友情链接插件后，该方式添加的友链不会生效。
 
 ### 最终效果
 
@@ -54,6 +61,12 @@
 
 
 
+## 独立页面启用评论
+
+模板默认关闭独立页面的评论功能，如果要启用，请在自定义字段中添加`enableComment`字段并赋值`1`，就像这样
+
+![开启评论](https://cdn.exia.xyz/img/G_Doc/G_theme_enableComment.png)
+
 ## 搜索
 
 此功能需要插件[ExSearch](https://github.com/AlanDecode/Typecho-Plugin-ExSearch)支持
@@ -66,11 +79,11 @@
 
 设置位置**后台->外观->设置外观**->**打赏二维码图片**
 
-![赞赏设置](https://cdn.exia.xyz/img/G_theme_feed_option.png)
+![赞赏设置](https://cdn.exia.xyz/img/G_Doc/G_theme_feed_option.png)
 
 若这一栏被填写，将在文章页生成赞赏按钮
 
-![赞赏按钮](https://cdn.exia.xyz/img/G_theme_btn_feed.png)
+![赞赏按钮](https://cdn.exia.xyz/img/G_Doc/G_theme_btn_feed.png)
 
 ## 更多自定义选项
 
@@ -130,7 +143,7 @@ ps.如果单单填写张图片的地址可能略显枯燥。可以在此处填�
 
 cid为文章id
 
-![文章跳转](https://cdn.exia.xyz/img/G_theme_art2art.png)
+![文章跳转](https://cdn.exia.xyz/img/G_Doc/G_theme_art2art.png)
 
 
 
@@ -144,7 +157,7 @@ cid为文章id
 
 href为目标地址,中间的`blog.zip`可替换成相应文件名
 
-![下载按钮](https://cdn.exia.xyz/img/G_theme_btn_download.png)
+![下载按钮](https://cdn.exia.xyz/img/G_Doc/G_theme_btn_download.png)
 
 ### 提示框
 
@@ -154,7 +167,7 @@ href为目标地址,中间的`blog.zip`可替换成相应文件名
 [notice]哟哈[/notice]
 ```
 
-![提示框](https://cdn.exia.xyz/img/G_themes_shortcode_notice.png)
+![提示框](https://cdn.exia.xyz/img/G_Doc/G_themes_shortcode_notice.png)
 
 ### 警告框
 
@@ -164,7 +177,7 @@ href为目标地址,中间的`blog.zip`可替换成相应文件名
 [warn]哟哈[/warn]
 ```
 
-![警告框](https://cdn.exia.xyz/img/G_themes_shortcode_warn.png)
+![警告框](https://cdn.exia.xyz/img/G_Doc/G_themes_shortcode_warn.png)
 
 ### 标签
 
@@ -176,5 +189,5 @@ href为目标地址,中间的`blog.zip`可替换成相应文件名
 
 type控制颜色，默认为蓝色(`#07F`)，目前仅支持`red` `black`
 
-![警告框](https://cdn.exia.xyz/img/G_themes_shortcode_tags.png)
+![警告框](https://cdn.exia.xyz/img/G_Doc/G_themes_shortcode_tags.png)
 

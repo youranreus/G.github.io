@@ -12,7 +12,7 @@
 
 cid为文章id
 
-![文章跳转](https://cdn.exia.xyz/img/G_theme_art2art.png)
+![文章跳转](https://cdn.exia.xyz/img/G_Doc/G_theme_art2art.png)
 
 
 
@@ -26,7 +26,7 @@ cid为文章id
 
 href为目标地址,中间的`blog.zip`可替换成相应文件名
 
-![下载按钮](https://cdn.exia.xyz/img/G_theme_btn_download.png)
+![下载按钮](https://cdn.exia.xyz/img/G_Doc/G_theme_btn_download.png)
 
 ### 提示框
 
@@ -36,7 +36,7 @@ href为目标地址,中间的`blog.zip`可替换成相应文件名
 [notice]哟哈[/notice]
 ```
 
-![提示框](https://cdn.exia.xyz/img/G_themes_shortcode_notice.png)
+![提示框](https://cdn.exia.xyz/img/G_Doc/G_themes_shortcode_notice.png)
 
 ### 警告框
 
@@ -46,7 +46,7 @@ href为目标地址,中间的`blog.zip`可替换成相应文件名
 [warn]哟哈[/warn]
 ```
 
-![警告框](https://cdn.exia.xyz/img/G_themes_shortcode_warn.png)
+![警告框](https://cdn.exia.xyz/img/G_Doc/G_themes_shortcode_warn.png)
 
 ### 标签
 
@@ -58,5 +58,5 @@ href为目标地址,中间的`blog.zip`可替换成相应文件名
 
 type控制颜色，默认为蓝色(`#07F`)，目前仅支持`red` `black`
 
-![警告框](https://cdn.exia.xyz/img/G_themes_shortcode_tags.png)
+![警告框](https://cdn.exia.xyz/img/G_Doc/G_themes_shortcode_tags.png)
 

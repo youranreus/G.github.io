@@ -24,15 +24,15 @@
 >
 > 关于页面则无需选择，自由发挥
 
-![pages](https://cdn.exia.xyz/img/G_theme_page_option.png)
+![pages](https://cdn.exia.xyz/img/G_Doc/G_theme_page_option.png)
 
 注意独立页面链接的配置(下图中黄色区域)
 
-![links](https://cdn.exia.xyz/img/G_theme_page_option_links.png)
+![links](https://cdn.exia.xyz/img/G_Doc/G_theme_page_option_links.png)
 
-![archive](https://cdn.exia.xyz/img/G_theme_page_option_archive.png)
+![archive](https://cdn.exia.xyz/img/G_Doc/G_theme_page_option_archive.png)
 
-![about](https://cdn.exia.xyz/img/G_theme_page_option_about.png)
+![about](https://cdn.exia.xyz/img/G_Doc/G_theme_page_option_about.png)
 
 
 
@@ -42,7 +42,7 @@
 
 前往**设置**->**评论**->**评论显示**处选择 `将较新的评论显示在前面`
 
-![comment](https://cdn.exia.xyz/img/G_theme_comment_option.png)
+![comment](https://cdn.exia.xyz/img/G_Doc/G_theme_comment_option.png)
 
 
 
