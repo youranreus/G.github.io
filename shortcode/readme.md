@@ -60,3 +60,27 @@ type控制颜色，默认为蓝色(`#07F`)，目前仅支持`red` `black`
 
 ![警告框](https://cdn.exia.xyz/img/G_Doc/G_themes_shortcode_tags.png)
 
+### DPlayer
+
+格式示例
+
+```html
+[dplayer id="xxx"]yyy.mp4[/dplayer]
+```
+
+id处填写视频id，**必须填写**
+
+在标签中间填写视频url
+
+![DP](https://cdn.exia.xyz/img/G_Doc/G_themes_shortcode_dplayer.png)
+
+
+
+### B站视频
+
+格式示例
+
+```
+[bili]av号[/bili]
+```
+

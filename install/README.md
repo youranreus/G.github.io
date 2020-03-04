@@ -9,6 +9,11 @@
 安装以下插件可以获取更好的使用体验
 
 - [ExSearch](https://github.com/AlanDecode/Typecho-Plugin-ExSearch)
+- [Links](http://www.imhan.com/archives/typecho-links/)
+
+
+
+p.s.本主题已**内置DPlayer**，**无需再次安装**
 
 ## 基本配置
 
