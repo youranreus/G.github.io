@@ -65,12 +65,16 @@ type控制颜色，默认为蓝色(`#07F`)，目前仅支持`red` `black`
 格式示例
 
 ```html
-[dplayer id="xxx"]yyy.mp4[/dplayer]
+[dplayer id="xxx" url="demo.mp4" pic="demo.png"]随便写点（建议空格）不写会出事[/dplayer]
 ```
 
 id处填写视频id，**必须填写**
 
-在标签中间填写视频url
+url处填写视频链接，**必须填写**
+
+pic处填写封面链接，可选
+
+**注意！**一定要在内容中随便写点东西，建议空格
 
 ![DP](https://cdn.exia.xyz/img/G_Doc/G_themes_shortcode_dplayer.png)
 
