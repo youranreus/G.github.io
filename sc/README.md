@@ -33,7 +33,7 @@ href为目标地址,中间的`blog.zip`可替换成相应文件名
 格式示例
 
 ```html
-[notice]哟哈[/notice]
+[notice-block]哟哈[/notice-block]
 ```
 
 ![提示框](https://cdn.exia.xyz/img/G_Doc/G_themes_shortcode_notice.png)
@@ -43,10 +43,32 @@ href为目标地址,中间的`blog.zip`可替换成相应文件名
 格式示例
 
 ```html
-[warn]哟哈[/warn]
+[warn-block]哟哈[/warn-block]
 ```
 
 ![警告框](https://cdn.exia.xyz/img/G_Doc/G_themes_shortcode_warn.png)
+
+### 提示栏
+
+格式示例
+
+```html
+[notice]哟哈[/notice]
+```
+
+![提示栏](https://cdn.exia.xyz/img/G_Doc/G_theme_shortcode_notice2.png)
+
+### 警告栏
+
+格式示例
+
+```html
+[warn]哟哈[/warn]
+```
+
+![警告栏](https://cdn.exia.xyz/img/G_Doc/G_theme_shortcode_warn2.png)
+
+
 
 ### 标签
 
