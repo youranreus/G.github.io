@@ -12,13 +12,13 @@
 
 首先请到**后台->外观->设置外观**处打开这个选项（cool为打开，nope为关闭）
 
-![独立首页.PNG](https://i.loli.net/2019/03/10/5c84c5afa15a3.png)
+![独立首页.PNG](https://cdn.exia.xyz//img/G_Doc/20210101122018.png)
 
 然后新建一个页面作为首页，内容可以自定义（奇奇怪怪的问候啊，歌词啊...）
 
 然后到**后台->设置->阅读**处按照下图设置
 
-![独立首页](https://i.loli.net/2019/02/07/5c5c46e2d17ce.png)
+![独立首页](https://cdn.exia.xyz/img/G_Doc/20210101122149.png)
 
 大功告成！
 
@@ -30,9 +30,7 @@
 
 作者首推使用[寒泥大佬](http://www.imhan.com/archives/typecho-links/)的[links插件](http://www.imhan.com/archives/typecho-links/)，使用了此插件的话，通过插件添加友情链接即可
 
-![友情链接.PNG](https://i.loli.net/2019/03/10/5c84c730167c2.png)
-
-![友情链接](https://i.loli.net/2019/02/12/5c6249ce21214.png)
+![友情链接.PNG](https://cdn.exia.xyz//img/G_Doc/20210101123106.png)
 
 就像这样
 
@@ -53,13 +51,17 @@
 
 #### 最终效果
 
-![展示](https://i.loli.net/2020/02/16/3CmRafVSAlHjtrG.png)
+![展示](https://cdn.exia.xyz//img/G_Doc/20210101123145.png)
 
 ## 文章头图
 
 当发布文章时，请在自定义字段中添加`imgurl`字段，就像这样
 
-![文章头图](https://i.loli.net/2019/02/12/5c624d23716e0.png)
+![](https://cdn.exia.xyz//img/G_Doc/20210101123457.png)
+
+
+
+
 
 
 

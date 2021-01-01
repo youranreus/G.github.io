@@ -8,7 +8,7 @@ yoha!这里是主题G的使用手册
 
 G是一个由[季悠然](https://gundam.exia.xyz)创造的typecho主题。主题秉承着`简洁` `大气`的设计理念，耗时~~(记不清)~~，最终于 ` 2019.2.7 `上线。
 
-![shouye.png](https://i.loli.net/2019/03/10/5c848cb8087d8.png)
+![shouye.png](https://cdn.exia.xyz//img/G_Doc/20210101123558.png)
 
 那我们开始叭!
 
