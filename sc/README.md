@@ -120,3 +120,44 @@ pic处填写封面链接，可选
 [hide]...[/hide]
 ```
 
+
+
+### 折叠框
+
+格式示例
+
+```html
+[collapse title="标题"]
+我是内容
+[/collapse]
+```
+
+![](https://cdn.exia.xyz//img/G_Doc/20210508232744.png)
+
+![](https://cdn.exia.xyz//img/G_Doc/20210508232727.png)
+
+### 相册
+
+格式示例
+
+```html
+[photos]
+首页,https://cdn.exia.xyz/img/blog/588/20201127084700.png|
+管理页,https://cdn.exia.xyz/img/blog/588/20201127084808.png|
+详情页,https://cdn.exia.xyz/img/blog/588/20201127084900.png|
+黑色呢？,https://cdn.exia.xyz/img/blog/447/deepink1.jpg|
+[/photos]
+```
+
+外层用`[photos][/photos]`包裹，里面的图片按照
+
+```html
+图片名,图片链接|
+```
+
+的格式一行一行添加。
+
+相册不会自动换行，如果想使用多行的相册请使用多个`[photos]`短代码。
+
+![](https://cdn.exia.xyz//img/G_Doc/20210508233154.png)
+
