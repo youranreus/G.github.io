@@ -1,30 +1,79 @@
-## 你来了
+# 你来了
 
 如果想要追求更好的效果请继续看下去吧。
 
 
 
-## 主题的进阶配置
+# 1.主题的进阶配置
 
 
 
-## 使用独立页面做首页
+# 2.使用独立页面做首页
 
-首先请到**后台->外观->设置外观**处打开这个选项（cool为打开，nope为关闭）
+### 2.1设置外观的位置
+![](https://goojoe.cc/img/Gthemedoc/2-1.png)
+
+![](https://goojoe.cc/img/Gthemedoc/2-2.png)
+
+### 2.2打开设置
+
+首先请到 **控制台->更换外观->设置外观** 处打开这个选项（cool为打开，nope为关闭）
 
 ![独立首页.PNG](https://cdn.exia.xyz//img/G_Doc/20210101122018.png)
 
-然后新建一个页面作为首页，内容可以自定义（奇奇怪怪的问候啊，歌词啊...）
+### 2.3新增页面作为首页
 
-然后到**后台->设置->阅读**处按照下图设置
+### 2.4独立界面位置
 
-![独立首页](https://cdn.exia.xyz/img/G_Doc/20210101122149.png)
+![](https://goojoe.cc/img/Gthemedoc/2-3.png)
+
+然后可以在**独立页面**新增一个页面作为首页，内容可以自定义（奇奇怪怪的问候啊，歌词啊...）
+
+![](https://goojoe.cc/img/Gthemedoc/2-4.png)
+
+然后到**设置->阅读**处按照下图设置
+
+![](https://goojoe.cc/img/Gthemedoc/2-5.png)
 
 如果设置了伪静态，可以在主题设置中将头部文章路径设置为blog。如果你不知道伪静态是什么或者没有设置伪静态就不用修改这一项。
 
 ![](https://cdn.exia.xyz//img/G_Doc/20210508195239.png)
 
+# 3.伪静态
 
+没有伪静态的话你的链接会是这样的：域名/index.php/blog，这对用户非常不友好，看着也不好看所以只要开启伪静态就可以看起来完全消失
+
+## 3.1宝塔面板
+
+![](https://goojoe.cc/img/Gthemedoc/2-6.png)
+
+![](https://goojoe.cc/img/Gthemedoc/2-7.png)
+
+![](https://goojoe.cc/img/Gthemedoc/2-8.png)
+
+其他的我不知道，这是最简单的，若不行请百度吧
+
+## 3.2永久链接设置
+
+![](https://goojoe.cc/img/Gthemedoc/2-9.png)
+
+![](https://goojoe.cc/img/Gthemedoc/2-10.png)
+
+
+
+# 4.更改字体
+
+到网站路径
+
+``` markdown
+www/wwwrooot/域名/usr/themes/G/CSS
+```
+
+![](https://goojoe.cc/img/Gthemedoc/2-11.png)
+
+![](https://goojoe.cc/img/Gthemedoc/2-12.png)
+
+修改完后过一会应该可以生效，若你的网站加了CDN缓存可能需要更久，建议清理浏览器缓存TTL
 
 ## 友情链接
 
