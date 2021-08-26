@@ -14,4 +14,3 @@ G是一个由[季悠然](https://gundam.exia.xyz)创造的typecho主题。主题
 
 对了！可以的话请阅读以下[作者的话](/other/)
 
-test
