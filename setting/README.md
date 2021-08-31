@@ -63,7 +63,17 @@
 
 
 
+## 独立页面显示于头部
 
+头部导航栏默认只显示*友人帐*和*关于*两个独立页面
+
+![默认](https://cdn.exia.xyz/img/G-Doc/20210831155919.png)
+
+用户可以通过在独立页面中添加自定义字段`showHeader`并赋值为`1`来使其显示于头部
+
+![](https://cdn.exia.xyz/img/G-Doc/20210831160433.png)
+
+![](https://cdn.exia.xyz/img/G-Doc/20210831160149.png)
 
 
 
