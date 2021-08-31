@@ -83,16 +83,16 @@ p.s.本主题已**内置DPlayer**，**无需再次安装**
 
 ```nginx
 location / {
-index index.html index.php;
-if (-f $request_filename/index.html) {
-rewrite (.*) $1/index.html break;
-}
-if (-f $request_filename/index.php) {
-rewrite (.*) $1/index.php;
-}
-if (!-f $request_filename) {
-rewrite (.*) /index.php;
-}
+	index index.html index.php;
+	if (-f $request_filename/index.html) {
+		rewrite (.*) $1/index.html break;
+	}
+	if (-f $request_filename/index.php) {
+		rewrite (.*) $1/index.php;
+	}
+	if (!-f $request_filename) {
+		rewrite (.*) /index.php;
+	}
 }
 ```
 
