@@ -187,6 +187,12 @@
 
 ps.如果单单填写张图片的地址可能略显枯燥。可以在此处填写你的随机图片api以达到更加美观的效果。
 
+> 小技巧，当使用随机图片api时可能会出现重复获取同一张图片的情况，你可以使用`{random}`字段来避免这一问题
+>
+> 1.当你的随机图片api地址类似于`https://img.xx.xx/acg.php`，即api本身不含`?`时，只需要在地址末尾添加`?random={random}`即可。例如`https://img.xx.xx/acg.php?random={random}`
+>
+> 2.当你的随机图片api地址类似于`https://img.xx.xx/pic.php?cat=acg`，即api本身含有`?`时，则需要在地址末尾添加`&random={random}`。例如`https://img.xx.xx/pic.php?cat=acg&random={random}`
+
 
 
 ### 备份主题数据
