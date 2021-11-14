@@ -14,40 +14,6 @@ cid为文章id
 
 ![文章跳转](https://cdn.exia.xyz/img/G_Doc/G_theme_art2art.png)
 
-
-
-### 下载按钮
-
-格式示例
-
-```
-[dl href="gundam.exia.xyz"]blog.zip[/dl]
-```
-
-href为目标地址,中间的`blog.zip`可替换成相应文件名
-
-![下载按钮](https://cdn.exia.xyz/img/G_Doc/G_theme_btn_download.png)
-
-### 提示框
-
-格式示例
-
-```html
-[notice-block]哟哈[/notice-block]
-```
-
-![提示框](https://cdn.exia.xyz/img/G_Doc/G_themes_shortcode_notice.png)
-
-### 警告框
-
-格式示例
-
-```html
-[warn-block]哟哈[/warn-block]
-```
-
-![警告框](https://cdn.exia.xyz/img/G_Doc/G_themes_shortcode_warn.png)
-
 ### 提示栏
 
 格式示例
@@ -108,16 +74,6 @@ pic处填写封面链接，可选
 
 ```
 [bili]av号[/bili]
-```
-
-
-
-### 回复可见
-
-格式示例
-
-```html
-[hide]...[/hide]
 ```
 
 

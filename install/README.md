@@ -1,6 +1,6 @@
 ## 安装
 
-1. 下载主题包并解压
+1. [下载主题包](https://github.com/youranreus/G/releases)并解压
 2. 将文件夹**重命名为G** ，上传至typecho主题文件夹下。
 3. 启用主题**后台设置—>控制台—>外观**
 
@@ -8,7 +8,6 @@
 
 安装以下插件可以获取更好的使用体验
 
-- [ExSearch](https://github.com/AlanDecode/Typecho-Plugin-ExSearch)
 - [Links](http://www.imhan.com/archives/typecho-links/)
 
 
@@ -33,74 +32,31 @@ p.s.本主题已**内置DPlayer**，**无需再次安装**
 >
 > 关于页面则无需选择，自由发挥
 
-![pages](https://cdn.exia.xyz/img/G_Doc/G_theme_page_option.png)
+![](https://cdn.exia.xyz//img/G_Doc/v3/50.png)
 
 注意独立页面链接的配置(下图中黄色区域)
 
-![links](https://cdn.exia.xyz/img/G_Doc/G_theme_page_option_links.png)
-
-![archive](https://cdn.exia.xyz/img/G_Doc/G_theme_page_option_archive.png)
-
-![about](https://cdn.exia.xyz/img/G_Doc/G_theme_page_option_about.png)
+| ![](https://cdn.exia.xyz//img/G_Doc/v3/51.png) | ![](https://cdn.exia.xyz//img/G_Doc/v3/52.png) | ![](https://cdn.exia.xyz//img/G_Doc/v3/53.png) |
+| ---------------------------------------------- | ---------------------------------------------- | ---------------------------------------------- |
+| 归档页面                                       | 友情链接                                       | 关于页面                                       |
 
 那么基本的页面设置完毕。
 
+
+
 ### 评论设置
 
-前往**设置**->**评论**->**评论显示**处选择 `将较新的评论显示在前面`
+前往**设置**->**评论**->**评论显示**处选择 `将较新的评论显示在前面`，以及关闭`反垃圾评论`
 
-![comment](https://cdn.exia.xyz/img/G_Doc/G_theme_comment_option.png)
+![](https://cdn.exia.xyz//img/G_Doc/v3/54.png)
 
 
 
 ### 常见问题
 
+Q: 主题包含Jquery吗
 
-
-​    ~~Q:设置了之后从前台访问页面显示404（明明链接是对的）~~
-
-​	~~A:请前往**[后台->设置->永久链接]**处启用**地址重写功能**~~
-
-​	~~Q:我已经启用了地址重写功能，为什么还是不行~~
-
-​	~~A:那么多半是伪静态出了问题~~
-
-~~如果网站环境为APACHE，请在typecho根目录下新建`.htaccess`文件，文件内容如下~~
-
-```apache
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteBase /
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^(.*)$ index.php [L,E=PATH_INFO:$1]
-</IfModule>
-```
-
-
-
-~~如果环境为nginx，代码则为~~
-
-```nginx
-location / {
-	index index.html index.php;
-	if (-f $request_filename/index.html) {
-		rewrite (.*) $1/index.html break;
-	}
-	if (-f $request_filename/index.php) {
-		rewrite (.*) $1/index.php;
-	}
-	if (!-f $request_filename) {
-		rewrite (.*) /index.php;
-	}
-}
-```
-
-~~具体操作请到百度查找，关键词为`typecho伪静态`。~~
-
-
-
-**2.0版本开始无需配置伪静态。**
+A: 没有
 
 
 
