@@ -1,3 +1,5 @@
+本主题建议使用最新版typecho（1.2）
+
 ## 安装
 
 1. [下载主题包](https://github.com/youranreus/G/releases)并解压
