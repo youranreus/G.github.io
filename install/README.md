@@ -11,6 +11,7 @@
 安装以下插件可以获取更好的使用体验
 
 - [Links](http://www.imhan.com/archives/typecho-links/)
+- [ExSearch](https://github.com/AlanDecode/Typecho-Plugin-ExSearch)
 
 
 
@@ -60,7 +61,9 @@ Q: 主题包含Jquery吗
 
 A: 没有
 
+Q: 为什么我的博客用了G但是右下的侧边栏没有搜索
 
+A: 安装ExSearch后会自动显示嗒
 
 ## 更新
 
