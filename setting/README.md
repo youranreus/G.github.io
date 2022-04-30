@@ -259,9 +259,15 @@ ps.如果单单填写张图片的地址可能略显枯燥。可以在此处填�
 3. 最近评论
 3. 随机文章
 
-图片和视频有两个大小：`small` 和 `large`
+图片和视频有两个大小：`normal` 和 `large`
 
-具体通过JSON格式来配置
+为了方便大家配置，做了一个小工具 [G主题小组件配置](https://g-editor.imouto.tech/)
+
+![工具](https:\img.uaxk.com\pub\15\TWrcljAsXa.png)
+
+你可以在左侧选择你想要的小组件并配置添加，添加后会在中间预览区中显示，最后复制右侧的json文件到后台保存就可以啦。
+
+如果你是动手党，可以看看下面。这个是小组件的配置格式。
 
 ```json
 [
@@ -350,13 +356,13 @@ ps.如果单单填写张图片的地址可能略显枯燥。可以在此处填�
     },
     {
         "type": "photo",
-        "size": "small",
+        "size": "normal",
         "url": "https://sdn.geekzu.org/avatar/87e0f8d2f0f70987061cec6376cb7f97?s=200&r=G&d=",
         "desc": "好热啊"
     },
     {
         "type": "cate",
-        "size": "small",
+        "size": "normal",
         "content": [
             {
                 "name": "闲扯",
